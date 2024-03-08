@@ -1,0 +1,442 @@
+
+/*-----------CSS for Home page & Sustainable Agriculture-----------*/
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ribeye', serif;
+	
+}
+
+/*-----------for header and nav-----------*/
+#imgLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+.menu-bar {
+	background-color: #FFF9F1;
+	box-shadow: 0 -8px 6px -6px #999;
+	text-align: center;
+}
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: #221811;
+}
+
+.menu-bar ul li {
+	margin: 15px;
+	padding: 15px;
+	text-align: center;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #221811;
+}
+
+.menu-bar ul li:hover {
+	background: #FFF0DB;
+	border-radius: 3px;
+}
+
+.sub-menu {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+	display: block;
+	position: absolute;
+	background: #FEEBD3;
+	border-radius: 3px;
+	margin-top: 13px;
+	margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+	display: block;
+	margin: 10px;
+}
+/*----------------------------------------styles for Home page----------------------------------------*/
+#bodyHome {
+	background-color: #EBDBAF;
+	background-size: cover;
+	background-position: center;
+}
+
+#divForTopHome {
+	background-color: #AFBFA4;
+	height: 545px;
+	box-shadow: 0 8px 6px -6px #999;
+	display: flex;
+}
+
+#h1_divForTopHome {
+	padding: 8%;
+	position: absolute;
+	color: #F3F4E5;
+	font-size: 40px; 
+}
+
+.plantOnH1Span {
+	font-size: 80px; 
+}
+
+#imgOnRight {
+	float: right;
+	margin-top: 11.3%;
+}
+
+#imgOnCenter {
+	height: auto;
+	margin-top: 10%;
+  margin: 0 auto; 
+}
+
+#imgPlantHome {
+	position: absolute;
+	width: auto;
+	margin-left: 40%;
+}
+
+#YImg1 {
+	float: right;
+}
+
+.clearRight { clear: right; }
+
+#c1 { margin-top: 13%; margin-left: 36%; }
+#c1:hover { transform: scale( 1.1, 1.1 ); }
+
+#c2 { margin-left: 5%; }
+#c2:hover { transform: scale( 1.1, 1.1 ); }
+
+#c3 { margin-left: 28%;}
+#c3:hover { transform: scale( 1.1, 1.1 ); }
+
+#c4 { margin-left: 4%; }
+#c4:hover { transform: scale( 1.1, 1.1 ); }
+
+#c5 { margin-left: 4%; }
+#c5:hover { transform: scale( 1.1, 1.1 ); }
+
+#c6 { margin-left: 38%; position: absolute;}
+#c6:hover { transform: scale( 1.1, 1.1 ); }
+
+#c7 { margin-left: 58%; position: absolute;}
+#c7:hover { transform: scale( 1.1, 1.1 ); }
+
+#YImg2 {
+	position: absolute;
+}
+
+#GrForText {
+	float: right;
+	margin-top: 25%;
+}
+
+#YImg3 {
+	float: right;
+	width: auto;
+}
+
+.image-container {
+/*  position: relative;*/
+}
+
+#TextOnCenter {
+	color: #2F1613;
+	font-size: 26px;
+	position: absolute;
+	margin-top: 31%;
+	margin-left: 35%;
+}
+
+#WhoAreWe {
+	color: #AFBFA4;
+	font-size: 40px;
+}
+
+/*#someElements {
+	position: relative;
+}*/
+
+#divForh2s_InContainer {
+	color: #BBA37A;
+	font-size: 27px;
+	text-align: center;
+	display: inline-flex;
+	position: absolute;
+	margin-left: 14%;
+}
+
+#h2_Visitors ,#h2_RegisteredUsers ,#h2_PostsWebLink {
+	margin-right: 150px;
+	background: #f4f4f4;
+	border-radius: 15px;
+
+	margin-block-start: 3.7em;
+  margin-block-end: 3em;
+  margin-inline-start: -20px;
+  margin-inline-end: 100px;
+  opacity: 0.9;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+#h2_Visitors {
+/*	margin-right: 140px;*/
+}
+
+.container {
+    display: inline-flex;
+    flex-flow: wrap row;
+    margin: 0 auto 0;
+    height: 100vh;
+    position: absolute;
+    top: 265%;
+    left: 18%;
+    flex-wrap: nowrap;
+    height: auto;
+    text-align: center;
+    justify-content: space-between;
+    
+
+}
+
+.counter {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin: 1.5%;
+    font-size: 50px;
+    background-color: #f4f4f4;
+    color: #2F1613;
+    width: 230px;
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 160px;
+    vertical-align: middle;
+    flex-wrap: nowrap;
+    opacity: 0.9;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+#ImgPlantInfographic {
+  width: 100%;
+  height: 650px;
+  margin-top: 10rem;
+  box-shadow: 0 8px 6px -6px #999;
+  margin-bottom: 60px;
+}
+
+.divFor_h2_container_Img {
+
+}
+
+
+
+
+
+
+/*---------------------------------styles for Sustainable Agriculture page---------------------------------*/
+#bodyS_A {
+	background-color: #FEEBD3;
+	background-size: cover;
+	background-position: center;
+}
+
+#divForS_A {
+	background-color: #C68B60;
+	height: 545px;
+	box-shadow: 0 8px 6px -6px #999;
+}
+
+#h1_divForS_A {
+	padding-top: 150px;
+	padding-left: 70px;
+	padding-bottom: 200px;
+	color: #FEEBD3;
+	font-size: 90px; 
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#h1_divForParagraph {
+	text-align: center;
+	color: #C68B60;
+	font-size: 40px;
+	padding: 3%;
+	padding-bottom: 5%;
+}
+
+#imgOnTop {
+	position: absolute;
+	margin-left: 200px;
+}
+
+#ImgOnParagraph {
+	float: right;
+	margin-right: 8%;
+	margin-left: 3%;
+	box-shadow: 0 6px 4px -4px #999;
+}
+
+/* CODE JAVA SCRIPT FOR RUN THE VIDEO AUTO IF ONMOUSEENTERED OF IMG */
+#ImgForVideo {
+	width: 100%;
+	height: auto;
+	box-shadow: 0 8px 6px -6px #999;
+  padding-bottom: 20%;
+
+  flex: 1;
+  box-sizing: border-box;
+}
+
+#myVideo {
+	position: absolute;
+  padding-top: 19%;
+  width: 45%;
+  padding-left: 28%;
+  padding-right: 30%;
+}
+
+
+#divForH1_Paragraph {
+  background: #FFF9F1;
+  box-shadow: 0 8px 6px -6px #999;
+  margin: 10% 15% 10% 15%;
+  border-radius: 30px;
+}
+
+#divFor_Paragraph {
+	color: #666;
+	margin: 4%;
+	padding-bottom: 3%;
+}
+
+#divFor_Paragraph li p {
+	color: #C68B60;
+	font-size: 25px;
+}
+
+/*------------Footer Styles------------*/
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.contact-info {
+    margin-top: 20px;
+}
+
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+.footer-links a:hover {
+    color: #9ACD32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.reveal {
+	position: relative;
+	transform: translateY(10px);
+	opacity: 0;
+	transition: all 2s ease;
+}
+
+.reveal.active {
+	transform: translateY(0px);
+	opacity: 1;
+}
+*/
+
+.shape.reval:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 30px 15px rgb(196,148,100,0.25), -5 px -5px 30px 15px rgb(196,148,100,0.22);
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px );
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
