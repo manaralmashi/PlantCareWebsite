@@ -1,5 +1,5 @@
 # PlantCareWebsite
-https://github.com/manaralmashi/PlantCareWebsite/assets/162150042/dd439c26-fe80-4c0f-8cd8-d935c5bf45de
+https://github.com/manaralmashi/BunyanGame/assets/162150042/6a8b3b00-2c54-460a-905e-445830902720
 
 ## 1.1: Summary of the website and its primary objectives
 The website is dedicated to plants, aiming to educate and inspire visitors. It showcases ornamental plants, both indoor and outdoor, provides insights into outdoor plant varieties, explores unique flowers and rare plants, offers practical advice for plant lovers, highlights the positive impact of plants on mental health, features artistic representations of plants, and explains the principles of sustainable agriculture. The site seeks to create a thriving community among plant enthusiasts, gardeners, and those interested in the intersection of plants with art, mental health, and sustainable practices.
