@@ -1,0 +1,101 @@
+﻿
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ribeye', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(background.png);
+    background-size: cover;
+    background-color: #fcecd4;
+}
+
+.login-container {
+    height: 400px;
+    width: 900px;
+    border-radius: 150px;
+    background-color: #F3ECCC;
+    margin: 100;
+    padding: 100px;
+    align-items: center;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    color: #51584B;
+    font-family: 'Ribeye', serif;
+    font-size: 50px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #C49464;
+    font-size: 25px;
+    font-family: "Itim", cursive;
+}
+
+input {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #6C907A;
+    border-radius: 20px;
+    color: #51584B;
+    placeholder-color: #51584B;
+    font-family:  serif;
+    font-size: 20px;
+}
+.sginLabel label {
+    display: block;
+    margin-top: 5px;
+    color: #51584B;
+    font-size: 25px;
+
+}
+.sginLabel label a {
+    margin-top: 5px;
+    color: #51584B;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+button {
+    width: 100px;
+    height: 50px;
+    padding: 10px 15px 15px 15px;
+    border: none;
+    background-color: #C49464;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 60px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Itim", cursive;
+    font-weight:bold;
+}
+
+button:hover {
+    background-color: #C39B79;
+}
+
+img {
+    margin-top: 60px;
+}
+
+input:hover {
+    border-color: #C39B79;
+}
+
