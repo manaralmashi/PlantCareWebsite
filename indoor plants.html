@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<head>
+
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap">
+
+<title>Indoor plants</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ribeye', serif;
+
+}
+
+body {
+  margin: 0;
+  background-color: #dfe7cf;
+}
+
+
+
+h2{
+text-align: center;
+font-size: 30px;
+}
+
+p img {
+  float: left;
+  margin-right: 10px;
+}
+
+.flowerImg{
+  border-radius: 60px;
+}
+
+
+#pflo{
+
+}
+
+#indoor{
+  font-size: 60px;
+  color: #f2f3e5;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background-image: url('header.png');
+  background-size: contain;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px 60px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#imgLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.menu-bar {
+  background-color: #FFF9F1;
+  box-shadow: 0 -8px 6px -6px #999;
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #221811;
+}
+
+.menu-bar ul li {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #221811;
+}
+
+.menu-bar ul li:hover {
+  background: #FFF0DB;
+  border-radius: 3px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: #FEEBD3;
+  border-radius: 3px;
+  margin-top: 13px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #9ACD32;
+}
+
+
+</style>
+</head>
+<body>
+
+  <header>
+      <img id = imgLogo src="logo.png" alt="PLANT" width="155" height="120">
+    </header>
+
+    <nav class = "menu-bar">
+      <ul>
+        <li><a href="Home.html" >HOME</a></li>
+        <li><a>ORNAMENTAL PLANTS</a>
+          <div class= "sub-menu">
+            <ul>
+              <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+              <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="Rare plants.html">RARE PLANTS</a></li>
+        <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+        <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+        <li><a href="PlantsCultrue.html">PLANT & CULTURE</a></li>
+        <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+      </ul>
+    </nav>
+
+
+<div class="header">
+  
+<p id="indoor" >Indoor Plants</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Pink Orchid</h2>
+    <img class="flowerImg" src="pinkOrchid.png" width="250"  height="250" 
+    onmouseover="changeImge(2,this)" onmouseout="changeImge(1,this)" >
+    <p>WATRING<img src="plant.png" alt="Plant Image" width="40" height="40"><br><br><br>Water the orchid when the soil is slightly dry. Ensuring the roots stay moist but not waterlogged</p>
+    <br>
+    <p>
+      LIGHTING<img src="lighting.png" alt="lighting Image" width="40" height="40"><br><br><br>Thrives in bright. Filtered light reminiscent of soft window glow.</p>
+    <p>TEMPERATURE<img src="temperature.png" alt="temp Image" width="40" height="40"><br><br><br>The orchid flourshes in a cool to moderate climate. ideal for typical room conditions</p>
+    <br>
+  </div>
+  
+  <div class="column">
+    <h2>Kalanchoe Purple</h2>
+    <img class="flowerImg" src="kalanchoePurple.png" width="250"  height="250" 
+    onmouseover="changeImge(3,this)" onmouseout="changeImge(4,this)" >
+    <p>WATRING<img src="plant.png" alt="Plant Image" width="40" height="40"><br><br><br> is not watering until the soil dries. and it is preferable to spray its leaves with water spray. as it s moistrue-loving</p>
+    <br>
+    <p>LIGHTING<img src="lighting.png" alt="lighting Image" width="40" height="40"><br><br><br>You need bright. filtered light such as window light or room lighting</p>
+    <p>TEMPERATURE<img src="temperature.png" alt="temp Image" width="40" height="40"><br><br><br>It needs a cool temperate atmosphere that is suitable for normal room temperatrue up to 25 celsius</p>
+  </div>
+  
+  <div class="column">
+    <h2>Anthurium Plant</h2>
+    <img class="flowerImg" src="anthurium.png" width="250"  height="250" 
+    onmouseover="changeImge(5,this)" onmouseout="changeImge(6,this)" >
+    <p>WATRING<img src="plant.png" alt="Plant Image" width="40" height="40"><br><br><br>The plant is not irrigated util the soil is partially dry. and it is preferable to spray its leaves with water mist constantly. as it is mosture-loving</p>
+    <p>LIGHTING<img src="lighting.png" alt="lighting Image" width="40" height="40"><br><br><br>The plant needs bright to medium light such as window light or artigicial room lighting</p>
+    
+    <p>TEMPERATURE<img src="temperature.png" alt="temp Image" width="40" height="40"><br><br><br>The plant needs a moderate atmosphere that is suitable for normal room temperature up to 25 celsius</p>
+    <br>
+  </div>
+</div>
+
+<script>
+function changeImge(x,image){
+  if(x == 1){
+    image.src = 'pinkOrchid.png';
+  }
+
+  if(x == 2){
+    image.src = 'orchidZ.png';
+  }
+
+  if(x == 3){
+    image.src = 'kalanchoeZ.png';
+  }
+
+  if(x == 4){
+    image.src = 'kalanchoePurple.png';
+  }
+
+  if(x == 5){
+    image.src = 'anthuriumZ.png';
+  }
+
+  if(x == 6){
+    image.src = 'anthurium.png';
+  }
+}
+</script>
+
+<footer>
+        <ul class="footer-links">
+          <li><a href="Home.html" >HOME</a></li>
+          <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+          <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+          <li><a href="Rare plants.html">RARE PLANTS</a></li>
+          <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+          <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+          <li><a href="PlantsCultrue.html">PLANT & CULTURE </a></li>
+          <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+
+        </ul>
+
+        <div class="contact-info">
+            <p> contact number: 0123456789</p>
+            <p> contact email : PlantCare@gmail.com</p>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 PLANT CARE. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
