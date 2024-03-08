@@ -1,0 +1,426 @@
+/* styles.css */
+
+body {
+    background-color: #FFEBBC;
+    margin: 0;
+    padding: 0;
+}
+
+.page1 body {
+    background-color:#ECF4D8; 
+}
+
+.page2 body {
+    background-color: #F8F3D8; 
+}
+
+
+
+
+#imgLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.menu-bar {
+    background-color: #FFF9F1;
+    box-shadow: 0 -8px 6px -6px #999;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #221811;
+}
+
+.menu-bar ul li {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #221811;
+}
+
+.menu-bar ul li:hover {
+    background: #FFF0DB;
+    border-radius: 3px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: #FEEBD3;
+    border-radius: 3px;
+    margin-top: 13px;
+    margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+
+/*-----------------------------*/
+
+#h-rectangle {
+  background-image: url('h1.png');
+  background-size: cover;
+  color: #6C5700;
+  font-size: 60px;
+  font-family: 'Ribeye', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+}
+#h-rectangle2 {
+  background-image: url('h2.png');
+  background-size: cover;
+  color: #6C5700;
+  font-size: 68px;
+  font-family: 'Ribeye', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+     margin-left: 400px;
+}
+
+
+.hidden {
+    display: none;
+}
+.image {
+    width: 150px;
+    height: 150px;
+    margin-left: 60px;
+}
+
+
+#paragraph-container1 {
+      position: absolute;
+    top: 90%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container2 {
+    position: absolute;
+    top: 90%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container3 {
+    position: absolute;
+    top: 92%;
+    left:70.5%;
+    transform: translate(-50%, -50%);
+    font-size:15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container4 {
+    position: absolute;
+    top: 91.5%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container5 {
+    position: absolute;
+    top: 90%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container6{
+    position: absolute;
+    top: 91%;
+    left:70.5%;
+    transform: translate(-50%, -50%);
+    font-size:15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container7{
+    position: absolute;
+    top: 92%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container8 {
+    position: absolute;
+    top: 91%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container9{
+    position: absolute;
+    top: 91.5%;
+    left:70.5%;
+    transform: translate(-50%, -50%);
+    font-size:15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container10{
+      position: absolute;
+    top: 91.5%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container11 {
+    position: absolute;
+    top: 92%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+
+font-family: 'Itim', cursive;
+}
+
+#paragraph-container12{
+    position: absolute;
+    top: 91%;
+    left:70.5%;
+    transform: translate(-50%, -50%);
+    font-size:15px;
+
+font-family: 'Itim', cursive;
+}
+
+
+#d1-image {
+    width: 400px;
+    height: 400px;
+    position: revert;
+    z-index: 0;
+}
+
+#M{
+    margin-left: 160px;
+     margin-top: 160px;
+     margin-bottom: 50px;
+}
+
+
+#plantM{
+    color:  #C6A16D;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Ribeye', serif;
+
+}
+#plant-name{
+    color:  #C6A16D;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: 'Ribeye', serif;
+
+}
+
+ #PothosText {
+    position: absolute;
+    top: 91%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'Itim', serif;
+ 
+}
+
+#EasesText{
+     position: absolute;
+    top: 90.5%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+        font-size: 18px;
+    font-family: 'Itim', serif;
+}
+
+#AlocasiaText{
+     position: absolute;
+    top: 90.5%;
+    left: 62%;
+      transform: translate(-50%, -50%);
+        font-size: 18px;
+    font-family: 'Itim', serif;
+}
+#LavenderText{
+   position: absolute;
+    top: 137%;
+    left: 21%;
+      transform: translate(-50%, -50%);
+        font-size: 18px;
+    font-family: 'Itim', serif; 
+}
+
+#ChamomileText{
+    position: absolute;
+    top: 138%;
+    left: 42.5%;
+      transform: translate(-50%, -50%);
+        font-size: 18px;
+    font-family: 'Itim', serif;  
+}
+
+
+
+#PeppermintText{
+    position: absolute;
+    top: 137.5%;
+    left: 63.5%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: 'Itim', serif; 
+}
+
+
+.Pothosimg{
+   position: absolute; 
+      width: 150px;
+    height: 150px;
+    left: 230px;
+      top: 63%;
+
+}
+
+.Easeimg{
+   position: absolute; 
+      width: 150px;
+    height: 150px;
+    left: 595px;
+      top: 62%;
+     
+}
+.Alocasiaimg{
+   position: absolute; 
+      width: 150px;
+    height: 180px;
+    left: 950px;
+      top: 60%;
+ 
+}
+
+.Lavenderimg{
+    position: absolute; 
+      width: 150px;
+    height: 160px;
+    left: 230px;
+      top: 109%;
+}
+.Chamomileimg{
+   position: absolute; 
+      width: 160px;
+    height: 160px;
+    left: 595px;
+      top: 109%;
+     
+}
+
+
+.Peppermintimg{
+     position: absolute; 
+      width: 160px;
+    height: 160px;
+    left: 950px;
+      top: 109%;
+}
+
+
+
+
+h5{
+    color:  #C6A16D;
+    font-size: 18px;
+    font-family: 'Ribeye', serif;
+    text-align:center ;
+
+}
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #9ACD32;
+}
