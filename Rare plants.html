@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap">
+
+<style>
+
+* {
+  box-sizing: border-box;
+  font-family: 'Ribeye', serif;
+
+}
+
+body{
+  background-color: #afbfa4;
+}
+
+.Flowdiv {
+  padding: 10px;
+  margin: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #f2f3e5;
+  border-radius: 60px;
+  overflow: auto;
+}
+
+.p1{
+  font-size: 25px;
+
+}
+
+#rare{
+  font-size: 60px;
+  color: #f2f3e5;
+}
+
+.header{
+  padding: 20px;
+  text-align: center;
+  background-image: url('header.png');
+  background-size: contain;
+
+}
+
+
+.img1 {
+  float: right;
+  margin: 5px;
+  border-radius: 60px;
+}
+
+.img2 {
+  float: left;
+  margin: 10px;
+  border-radius: 60px;
+}
+
+
+#imgLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.menu-bar {
+  background-color: #FFF9F1;
+  box-shadow: 0 -8px 6px -6px #999;
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: #221811;
+}
+
+.menu-bar ul li {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: #221811;
+}
+
+.menu-bar ul li:hover {
+  background: #FFF0DB;
+  border-radius: 3px;
+}
+
+.sub-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+  display: block;
+  position: absolute;
+  background: #FEEBD3;
+  border-radius: 3px;
+  margin-top: 13px;
+  margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #9ACD32;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+</style>
+
+</head>
+
+
+<body>
+<header>
+    <img id = imgLogo src="LOGO.png" alt="PLANT" width="155" height="120">
+</header>
+
+    <nav class = "menu-bar">
+      <ul>
+        <li><a href="Home.html" >HOME</a></li>
+        <li><a>ORNAMENTAL PLANTS</a>
+          <div class= "sub-menu">
+            <ul>
+              <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+              <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="Rare plants.html">RARE PLANTS</a></li>
+        <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+        <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+        <li><a href="PlantsCultrue.html">PLANT & CULTURE</a></li>
+        <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+      </ul>
+    </nav>
+
+<div class="header">
+  
+<p id="rare">Rare Plants</p>
+</div>
+
+<div class="Flowdiv reveal">
+      <img class="img2" src="sweetlemon.jpg" alt="Rare Plant Image" width="250" height="250" >
+      <p class="p1">Ujukitsu sweet lemon trees have weeping branches and produce pear-shaped fruit. The ripe fruit is bright yellow, with a thick peel and sweet, juicy pulp.<br>These trees bloom in spring and bear fruit earlier than other sweet lemon varieties.<br>The largest fruit is about the size of a softball and ripens from fall to winter.
+      </p>
+</div>
+
+<div class="Flowdiv reveal">
+      <img class="img1"src="magnolia_fairy_cream.jpg" alt="Rare Plant Image" width="250" height="250" >
+      <p class="p1">Fairy Magnolia is a hybrid plant with fragrant flowers in various colors. It blooms abundantly in early spring and sometimes even in summer. With its bushy growth and evergreen foliage, it's great for hedges or as a specimen plant.</p>
+    </div>
+
+<div class="Flowdiv reveal">
+      <img class="img2" src="hoya.jpeg" alt="Rare Plant Image" width="250" height="250" >
+      <p class="p1">Hindu Rope Plant 'Crispa' is a unique hoya with weeping stems, tightly-held convoluted leaves, and clusters of waxy pink flowers. It is ideal for hanging baskets.</p>
+</div>
+
+<footer>
+        <ul class="footer-links">
+          <li><a href="Home.html" >HOME</a></li>
+          <li><a href="indoor plants.html">INDOOR PLANTS</a></li>
+          <li><a href="OUTDOOR PLANTS.html">OUTDOOR PLANTS</a></li>
+          <li><a href="Rare plants.html">RARE PLANTS</a></li>
+          <li><a href="IG.html">IDEAS & GUIDELINES</a></li>
+          <li><a href="PSYCHOLOGY & PLANT.html">PSYCHOLOGY & PLANT</a></li>
+          <li><a href="PlantsCultrue.html">PLANT & CULTURE </a></li>
+          <li><a href="SustainableAgriculture.html">SUSTAINABLE AGRICULTURE</a></li>
+
+        </ul>
+
+        <div class="contact-info">
+            <p> contact number: 0123456789</p>
+            <p> contact email : PlantCare@gmail.com</p>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024 PLANT CARE. All rights reserved.</p>
+        </div>
+    </footer>
+
+<script>
+window.addEventListener('scroll', reveal);
+
+function reveal() {
+    var reveals = document.querySelectorAll('.reveal');
+
+    for (var i = 0; i < reveals.length; i++) {
+        var windowheight = window.innerHeight;
+        var revealtop = reveals[i].getBoundingClientRect().top;
+        var revealpoint = 10;
+
+        if (revealtop < windowheight - revealpoint) {
+            reveals[i].classList.add('active');
+
+        }
+        else {
+            reveals[i].classList.remove('active');
+        }
+    }
+}
+</script>
+</body>
+</html>
