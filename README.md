@@ -9,6 +9,14 @@ The website is dedicated to plants, aiming to educate and inspire visitors. It s
 ## 1.2: Primary audience for the Website
 The primary audience for the website includes plant enthusiasts, gardeners, art and nature lovers, mental health advocates, sustainability enthusiasts, the educational community, community builders, and the general public. The website aims to provide tailored content to cater to the diverse interests and needs of this audience.
 
+## Project Documentation
+
+### - Demo Video :
+You can find the demo video [here](./Demo).
+
+### - Screenshots :
+Screenshots of each page are available in the [screenshots](./Screenshots) folder.
+
 ## work team:
 * Manar Al-mashi | 443008492
 * Lamis Mohammed | 443307788
