@@ -1,5 +1,7 @@
 # PlantCareWebsite
-![HOME](https://github.com/manaralmashi/PlantCareWebsite/assets/162150042/bf1eee46-65d7-49d8-88df-d153fd7aab71)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7d49857e-ec06-46b1-bbca-f21a437b0738" alt="joyfulPaws Image" />
+</p>
 
 ## 1.1: Summary of the website and its primary objectives
 The website is dedicated to plants, aiming to educate and inspire visitors. It showcases ornamental plants, both indoor and outdoor, provides insights into outdoor plant varieties, explores unique flowers and rare plants, offers practical advice for plant lovers, highlights the positive impact of plants on mental health, features artistic representations of plants, and explains the principles of sustainable agriculture. The site seeks to create a thriving community among plant enthusiasts, gardeners, and those interested in the intersection of plants with art, mental health, and sustainable practices.
