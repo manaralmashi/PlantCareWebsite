@@ -22,8 +22,8 @@ Screenshots of each page are available in the [screenshots](./Screenshots) folde
 
 
 ## work team:
-* Manar Al-mashi | 443008492
-* Lamis Mohammed | 443307788
-* Rahaf Al-Mehdar | 443004399
-* Farah Al-Ansari | 443007633
-* Murooj Al-Zahrani | 443008435
+* Manar Al-mashi
+* Lamis Mohammed
+* Rahaf Al-Mehdar
+* Farah Al-Ansari
+* Murooj Al-Zahrani
